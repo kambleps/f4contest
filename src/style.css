@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.form2{
+    display: flex;
+    flex-flow: column;
+    margin: 40px;
+    padding: 5px;
+    background-color: black;
+}
+.form2 h1{
+    color: white;
+    margin-bottom: 15px;
+}
+.form2 input{
+    margin: 8px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.form2 button{
+    width: 100px;
+    color: black;
+    background-color: white;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.form2 p{
+    color: red;
+    margin: 10px;
+}
+.form2 p.success{
+    color: lightgreen;
+    margin: 10px;
+}
